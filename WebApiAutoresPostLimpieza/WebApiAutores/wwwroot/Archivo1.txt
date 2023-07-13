@@ -1,0 +1,9 @@
+Proceso inciado
+Proceso en ejecucion: 02/07/2023 11:01:42
+Proceso en ejecucion: 02/07/2023 11:01:47
+Proceso en ejecucion: 02/07/2023 11:01:52
+Proceso en ejecucion: 02/07/2023 11:01:57
+Proceso en ejecucion: 02/07/2023 11:02:02
+Proceso en ejecucion: 02/07/2023 11:02:07
+Proceso en ejecucion: 02/07/2023 11:02:12
+Proceso finalizado

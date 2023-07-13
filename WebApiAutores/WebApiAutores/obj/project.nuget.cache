@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "r4WIvMttavqmnCJn8SgTVRXERpK49auXaap5SmHiONzl1oIow8rxXD+VMlwAPKvhlkPwjGk15RKR1hSK0NgPyQ==",
+  "dgSpecHash": "yj4KTpLXprTF94kQXxnZIyOYN/+SZGosQ7U+0dpVdPghJDp5cfa+yBUJU99wH49kdmGp5OQDablBI0E44gFqCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\WebApiAutores\\WebApiAutores\\WebApiAutores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brian\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\brian\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.19\\microsoft.aspnetcore.authentication.jwtbearer.6.0.19.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

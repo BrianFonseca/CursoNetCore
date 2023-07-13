@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "5rUb6Ghufg9xiUWy8cz51HqpK9i5J5yG7eydnxlhMVU=",
+  "Source": "WebApiAutores",
+  "BasePath": "_content/WebApiAutores",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApiAutores\\wwwroot",
+      "Source": "WebApiAutores",
+      "ContentRoot": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\WebApiAutoresPostLimpieza\\WebApiAutores\\wwwroot\\",
+      "BasePath": "_content/WebApiAutores",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\WebApiAutoresPostLimpieza\\WebApiAutores\\wwwroot\\Archivo1.txt",
+      "SourceId": "WebApiAutores",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\WebApiAutoresPostLimpieza\\WebApiAutores\\wwwroot\\",
+      "BasePath": "_content/WebApiAutores",
+      "RelativePath": "Archivo1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Archivo1.txt"
+    }
+  ]
+}
