@@ -28,15 +28,18 @@ namespace WebApiAutores.Controllers
             return mapper.Map<List<AutorDTO>>(autores);
         }
 
-        [HttpGet("{id:int}")] // para agregar mas parametros o para que sea opcional es => /{param2?} o valor fijo => {param2=persona}
-        public async Task<ActionResult<AutorDTO>> Get(int id)
+        [HttpGet("{id:int}", Name = "obtenerAutor")] // para agregar mas parametros o para que sea opcional es => /{param2?} o valor fijo => {param2=persona}
+        public async Task<ActionResult<AutorDTOConLibros>> Get(int id)
         {
-            var autor = await context.Autores.FirstOrDefaultAsync(autorBD => autorBD.Id == id);
+            var autor = await context.Autores
+                .Include(autorDB => autorDB.AutoresLibros)
+                .ThenInclude(autorLibroDB => autorLibroDB.Libro)
+                .FirstOrDefaultAsync(autorBD => autorBD.Id == id);
 
             if(autor == null)
                 return NotFound();
 
-            return mapper.Map<AutorDTO>(autor);
+            return mapper.Map<AutorDTOConLibros>(autor);
         }
 
         [HttpGet("{nombre}")]
@@ -59,25 +62,26 @@ namespace WebApiAutores.Controllers
             var autor = mapper.Map<Autor>(autorCreacionDTO);
             context.Add(autor);
             await context.SaveChangesAsync();
-            return Ok();
+
+            var autorDTO = mapper.Map<AutorDTO>(autor);
+
+            return CreatedAtRoute("obtenerAutor", new { id = autor.Id }, autorDTO);
         }
 
         [HttpPut("{id:int}")]
-        public async Task<ActionResult> Put(Autor autor, int id)
+        public async Task<ActionResult> Put(AutorCreacionDTO autorCracionDTO, int id)
         {
-            if(autor.Id != id)
-            {
-                return BadRequest("El id del autor no coincide con el id de la URL");
-            }
-
             var existe = await context.Autores.AnyAsync(x => x.Id == id);
 
             if (!existe)
                 return NotFound();
 
+            var autor = mapper.Map<Autor>(autorCracionDTO);
+            autor.Id = id;
+
             context.Update(autor);
             await context.SaveChangesAsync();
-            return Ok();
+            return NoContent();
         }
 
         [HttpDelete("{id:int}")]

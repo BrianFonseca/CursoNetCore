@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Reflection.Metadata.Ecma335;
 using WebApiAutores.Validaciones;
 
 namespace WebApiAutores.Entidades
@@ -11,5 +12,6 @@ namespace WebApiAutores.Entidades
         [StringLength(maximumLength: 250)]
         public string Titulo { get; set; }
         public List<Comentario> Comentarios { get; set; }
+        public List<AutorLibro> AutoresLibros { get; set; }
     }
 }
