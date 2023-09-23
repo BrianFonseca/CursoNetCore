@@ -1,0 +1,4 @@
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJyaWFuQGhvdG1haWwuY29tIiwibG8gcXVlIHlvIHF1aWVyYSI6ImN1YWxxdWllciBvdHJvIiwiZXNBZG1pbiI6IjEiLCJleHAiOjE3MjY2MDIzODN9.bVXgasZdoOU42KoDXCOAmlrsZq8tliqTIGmMq7xHik4",
+  "expiracion": "2024-09-17T19:46:23.6412502Z"
+}

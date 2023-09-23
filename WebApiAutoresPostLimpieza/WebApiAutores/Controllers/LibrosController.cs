@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.EntityFrameworkCore;
 using WebApiAutores.DTOs;
 using WebApiAutores.Entidades;
@@ -8,7 +9,7 @@ namespace WebApiAutores.Controllers
 {
     [ApiController]
     [Route("api/libros")]
-    public class LibrosController: ControllerBase
+    public class LibrosController : ControllerBase
     {
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
@@ -27,24 +28,27 @@ namespace WebApiAutores.Controllers
                 .ThenInclude(autorLibroDB => autorLibroDB.Autor)
                 .FirstOrDefaultAsync(x => x.Id == id);
 
+            if(libro == null)
+                return NotFound();
+
             libro.AutoresLibros = libro.AutoresLibros.OrderBy(x => x.Orden).ToList();
 
             return mapper.Map<LibroDTOConAutores>(libro);
         }
 
-        [HttpPost]
+        [HttpPost(Name = "crearLibro")]
         public async Task<ActionResult> Post(LibroCreacionDTO libroCreacionDTO)
         {
-            if(libroCreacionDTO.AutoresIds == null)
+            if (libroCreacionDTO.AutoresIds == null)
             {
                 return BadRequest("No se puede crear un libro sin autores");
             }
 
             var autoresIds = await context.Autores.Where(autorBD => libroCreacionDTO.AutoresIds.Contains(autorBD.Id)).Select(x => x.Id).ToListAsync();
 
-            if(autoresIds.Count != libroCreacionDTO.AutoresIds.Count)
+            if (autoresIds.Count != libroCreacionDTO.AutoresIds.Count)
             {
-                return BadRequest("No existe uno de los autores enviados"); 
+                return BadRequest("No existe uno de los autores enviados");
             }
 
             var libro = mapper.Map<Libro>(libroCreacionDTO);
@@ -56,10 +60,10 @@ namespace WebApiAutores.Controllers
 
             var libroDTO = mapper.Map<LibroDTO>(libro);
 
-            return CreatedAtRoute("obtenerLibro", new { id = libro.Id}, libroDTO);
+            return CreatedAtRoute("obtenerLibro", new { id = libro.Id }, libroDTO);
         }
 
-        [HttpPut("{id:int}")]
+        [HttpPut("{id:int}", Name = "actualizarLibro")]
         public async Task<ActionResult> Put(int id, LibroCreacionDTO libroCreacionDTO)
         {
             var libroDB = await context.Libros
@@ -87,6 +91,45 @@ namespace WebApiAutores.Controllers
                     libro.AutoresLibros[i].Orden = i;
                 }
             }
+        }
+
+        [HttpPatch("{id:int}", Name = "patchLibro")]
+        public async Task<ActionResult> Patch(int id, JsonPatchDocument<LibroPatchDTO> patchDocument)
+        {
+            if(patchDocument == null)
+                return BadRequest();
+
+            var libroDB = await context.Libros.FirstOrDefaultAsync(x => x.Id == id);
+
+            if(libroDB == null)
+                return NotFound();
+
+            var libroDTO = mapper.Map<LibroPatchDTO>(libroDB);
+
+            patchDocument.ApplyTo(libroDTO, ModelState);
+
+            var esValido = TryValidateModel(libroDTO);
+
+            if(!esValido) 
+                return BadRequest(ModelState);
+
+            mapper.Map(libroDTO, libroDB);
+
+            await context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        [HttpDelete("{id:int}", Name = "borrarLibro")]
+        public async Task<ActionResult> Delete(int id)
+        {
+            var existe = await context.Libros.AnyAsync(x => x.Id == id);
+
+            if (!existe)
+                return NotFound();
+
+            context.Remove(new Libro { Id = id });
+            await context.SaveChangesAsync();
+            return NoContent();
         }
     }
 }

@@ -1,0 +1,52 @@
+# Archivos generados por Visual Studio
+.vscode/
+.vs/
+bin/
+obj/
+
+# Directorios específicos de .NET Core
+bin/
+obj/
+
+# Archivos de configuración
+*.suo
+*.user
+*.sln.docstates
+
+# Paquetes NuGet
+packages/
+*.nupkg
+!.nuget/
+*.paket/
+paket-files/
+
+# Logs y archivos temporales
+*.log
+*.swp
+*~
+[Tt]humbs.db
+[Tt]humbs.db.lock
+[Tt]humbs.db.ini
+[Tt]humbs.db.ini.bak
+[Tt]humbs.db.ini.tmp
+
+# Directorio de resultados de prueba
+TestResults/
+
+# Carpeta de caché de ReSharper
+_ReSharper*/
+
+# Carpeta de caché de Rider
+.idea/
+
+# Carpeta de caché de Visual Studio Code
+.vscode/
+
+# Carpeta de caché de Rider para proyectos Rider
+.idea/
+
+# Carpeta de caché de Rider para proyectos ReSharper
+_ReSharper*/
+
+# Carpeta de caché de Rider para proyectos Rider
+.idea/

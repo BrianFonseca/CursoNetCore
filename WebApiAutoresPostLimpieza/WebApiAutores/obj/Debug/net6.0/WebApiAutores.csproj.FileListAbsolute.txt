@@ -178,3 +178,12 @@ C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpie
 C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\obj\Debug\net6.0\ref\WebApiAutores.dll
 C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\brian\OneDrive\Escritorio\Repo mio\CursoNetCore\WebApiAutoresPostLimpieza\WebApiAutores\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
