@@ -1,15 +1,20 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.IdentityModel.Tokens.Jwt;
+using System.Reflection;
 using System.Text;
 using System.Text.Json.Serialization;
 using WebApiAutores.Filtros;
 using WebApiAutores.Middlewares;
 using WebApiAutores.Servicios;
+using WebApiAutores.Utilidades;
 
+[assembly: ApiConventionType(typeof(DefaultApiConventions))] //Documenta los tipos de respuesta de todos los endpoints del proyecto
 namespace WebApiAutores
 {
     public class Startup
@@ -26,6 +31,7 @@ namespace WebApiAutores
         {
             services.AddControllers(opciones => {
                 opciones.Filters.Add(typeof(FiltroDeExcepcion));
+                opciones.Conventions.Add(new SwaggerAgrupaPorVersion());
             })
             .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles).AddNewtonsoftJson();
 
@@ -47,6 +53,24 @@ namespace WebApiAutores
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen(c =>
             {
+                c.SwaggerDoc("v1", new OpenApiInfo { 
+                    Title = "WebAPIAutores", 
+                    Version = "v1",
+                    Description = "Este es un web api para trabajar con autores y libros",
+                    Contact = new OpenApiContact
+                    {
+                        Email = "brianfonseca1@outlook.com",
+                        Name = "Brian Fonseca",
+                        Url = new Uri("https://www.google.com")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "MIT"
+                    }
+                });
+                c.SwaggerDoc("v2", new OpenApiInfo { Title = "WebAPIAutores", Version = "v2" });
+                c.OperationFilter<AgregarParametroHATEOAS>();
+                c.OperationFilter<AgregarParametroXVersion>();
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Name = "Authorization",
@@ -70,13 +94,18 @@ namespace WebApiAutores
                         new string[] {}
                     }
                 });
+
+                var archivoXML = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var rutaXML = Path.Combine(AppContext.BaseDirectory, archivoXML);
+                c.IncludeXmlComments(rutaXML);
             });
 
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
                 builder.AllowAnyOrigin()
                        .AllowAnyMethod()
-                       .AllowAnyHeader();
+                       .AllowAnyHeader()
+                       .WithExposedHeaders(new string[] {"cantidadTotalRegistros"});
             }));
 
             services.AddAutoMapper(typeof(Startup));
@@ -101,6 +130,9 @@ namespace WebApiAutores
             services.AddDataProtection();
 
             services.AddTransient<HashService>();
+            services.AddTransient<GeneradorEnlaces>();
+            services.AddTransient<HATEOASAutorFilterAttribute>();
+            services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger) 
@@ -111,7 +143,10 @@ namespace WebApiAutores
             if (env.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerUI(c => {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiAutores v1");
+                    c.SwaggerEndpoint("/swagger/v2/swagger.json", "WebApiAutores v2");
+                });
             }
 
             app.UseHttpsRedirection();
