@@ -8,7 +8,7 @@ namespace WebApiAutores.Servicios
     {
         public ResultadoHash Hash(string textoPlano)
         {
-            var sal = new byte[16];
+            var sal = new byte[32];
             using(var random = RandomNumberGenerator.Create())
             {
                 random.GetBytes(sal);

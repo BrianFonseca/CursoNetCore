@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0T7eqa70ZuMa7yF2lukppCmjro0JCS1JcxafyJJInWI7G00iobZ8AFQpRcw79C1ks8su1vNvh6t7qR4S0Z5t7Q==",
+  "dgSpecHash": "lisRphqg3u/k586A8pB1DPYbRduW/0N9SnJ15ndLWMAjC0gQijRjxHFdPJkhJan0gFYWWXwYBM/hj0ovBpPjlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\WebApiAutoresPostLimpieza\\WebApiAutores\\WebApiAutores.csproj",
   "expectedPackageFiles": [
@@ -77,7 +77,6 @@
     "C:\\Users\\brian\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\system.runtime.caching\\5.0.0\\system.runtime.caching.5.0.0.nupkg.sha512",
-    "C:\\Users\\brian\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
     "C:\\Users\\brian\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",

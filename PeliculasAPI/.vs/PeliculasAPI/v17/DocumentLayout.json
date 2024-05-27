@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\entidades\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\entidades\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\brian\\AppData\\Roaming\\Microsoft\\UserSecrets\\dc99ddc6-6f09-4a4a-9bd8-decdceee3c4f\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B558FCB4-77DB-49EB-99FF-3A2F15E2D03D}|PeliculasApi.Tests\\PeliculasApi.Tests.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi.tests\\puebasunitarias\\actorescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B558FCB4-77DB-49EB-99FF-3A2F15E2D03D}|PeliculasApi.Tests\\PeliculasApi.Tests.csproj|solutionrelative:peliculasapi.tests\\puebasunitarias\\actorescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\helpers\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\helpers\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B558FCB4-77DB-49EB-99FF-3A2F15E2D03D}|PeliculasApi.Tests\\PeliculasApi.Tests.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi.tests\\puebasunitarias\\generoscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B558FCB4-77DB-49EB-99FF-3A2F15E2D03D}|PeliculasApi.Tests\\PeliculasApi.Tests.csproj|solutionrelative:peliculasapi.tests\\puebasunitarias\\generoscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\brian\\onedrive\\escritorio\\repo mio\\cursonetcore\\peliculasapi\\peliculasapi\\peliculasapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E2D0C59-BDD0-4EBA-8CCC-74D82F76F13A}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\peliculasapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PeliculasAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-11T22:17:51.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Entidades\\Actor.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Entidades\\Actor.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Entidades\\Actor.cs",
+              "RelativeToolTip": "PeliculasAPI\\Entidades\\Actor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:16:00.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\brian\\AppData\\Roaming\\Microsoft\\UserSecrets\\dc99ddc6-6f09-4a4a-9bd8-decdceee3c4f\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\dc99ddc6-6f09-4a4a-9bd8-decdceee3c4f\\secrets.json",
+              "ToolTip": "C:\\Users\\brian\\AppData\\Roaming\\Microsoft\\UserSecrets\\dc99ddc6-6f09-4a4a-9bd8-decdceee3c4f\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\dc99ddc6-6f09-4a4a-9bd8-decdceee3c4f\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-24T23:10:22.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PeliculasAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\appsettings.json",
+              "RelativeToolTip": "PeliculasAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-09T19:01:41.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PeliculasController.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Controllers\\PeliculasController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\PeliculasController.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Controllers\\PeliculasController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\PeliculasController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAGYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T18:32:49.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomBaseController.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Controllers\\CustomBaseController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\CustomBaseController.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Controllers\\CustomBaseController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\CustomBaseController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAABBwDgAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T18:31:57.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CuentasController.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Controllers\\CuentasController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\CuentasController.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Controllers\\CuentasController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\CuentasController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAABBwBkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T18:32:25.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Program.cs",
+              "RelativeToolTip": "PeliculasAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T19:17:59.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Startup.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Startup.cs",
+              "RelativeToolTip": "PeliculasAPI\\Startup.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAC4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T19:17:48.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HttpContextExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Helpers\\HttpContextExtensions.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Helpers\\HttpContextExtensions.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Helpers\\HttpContextExtensions.cs",
+              "RelativeToolTip": "PeliculasAPI\\Helpers\\HttpContextExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-29T17:49:37.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActoresControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasApi.Tests\\PuebasUnitarias\\ActoresControllerTests.cs",
+              "RelativeDocumentMoniker": "PeliculasApi.Tests\\PuebasUnitarias\\ActoresControllerTests.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasApi.Tests\\PuebasUnitarias\\ActoresControllerTests.cs",
+              "RelativeToolTip": "PeliculasApi.Tests\\PuebasUnitarias\\ActoresControllerTests.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAYwHoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-29T17:42:58.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PeliculasAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
+              "RelativeDocumentMoniker": "PeliculasAPI\\PeliculasAPI.csproj",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
+              "RelativeToolTip": "PeliculasAPI\\PeliculasAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-11-20T22:16:36.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActoresController.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActoresController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\ActoresController.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActoresController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\ActoresController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAABBwEoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T22:13:57.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PeliculasAPI\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T22:11:18.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PeliculasAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\appsettings.Development.json",
+              "RelativeToolTip": "PeliculasAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-09T19:01:42.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GenerosControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasApi.Tests\\PuebasUnitarias\\GenerosControllerTests.cs",
+              "RelativeDocumentMoniker": "PeliculasApi.Tests\\PuebasUnitarias\\GenerosControllerTests.cs",
+              "ToolTip": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasApi.Tests\\PuebasUnitarias\\GenerosControllerTests.cs",
+              "RelativeToolTip": "PeliculasApi.Tests\\PuebasUnitarias\\GenerosControllerTests.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAIwI8AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T18:02:38.031Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

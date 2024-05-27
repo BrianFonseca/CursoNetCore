@@ -1,11 +1,71 @@
 {
   "Version": 1,
-  "Hash": "rAE2a66vr5441zM3VEifvr70y8sGVq4BKD05EE0OxZo=",
+  "Hash": "0/93eh+8sTUJa6UpbwkQyb7HwZItliXn1IOpSCs34co=",
   "Source": "PeliculasAPI",
   "BasePath": "_content/PeliculasAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "PeliculasAPI\\wwwroot",
+      "Source": "PeliculasAPI",
+      "ContentRoot": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actores\\a8998d9c-0811-472c-9796-d5328bdc2d00.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "actores/a8998d9c-0811-472c-9796-d5328bdc2d00.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\actores\\a8998d9c-0811-472c-9796-d5328bdc2d00.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\1be20914-6f33-498a-bf95-1d7833f51cdc.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/1be20914-6f33-498a-bf95-1d7833f51cdc.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\1be20914-6f33-498a-bf95-1d7833f51cdc.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\wwwroot\\peliculas\\661d25c4-6d9e-4022-acb8-245a4b28bd8a.jpg",
+      "SourceId": "PeliculasAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brian\\OneDrive\\Escritorio\\Repo mio\\CursoNetCore\\PeliculasAPI\\PeliculasAPI\\wwwroot\\",
+      "BasePath": "_content/PeliculasAPI",
+      "RelativePath": "peliculas/661d25c4-6d9e-4022-acb8-245a4b28bd8a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\661d25c4-6d9e-4022-acb8-245a4b28bd8a.jpg"
+    }
+  ]
 }
